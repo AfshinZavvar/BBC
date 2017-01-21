@@ -1,0 +1,39 @@
+﻿---
+ID: "b7a9556e-0b85-4903-b796-3556297c92be"
+Parent: "5f07f827-ae35-41e0-b3dd-90b7d0954d37"
+Template: "6674a4af-eace-445e-89f1-e2f464026056"
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Units Business Visits/Units Business Visits
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/keys.png
+- ID: "0cc4ad84-f69d-44d2-9600-5c7522aa2401"
+  Hint: File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/UnitsBusinessVisits.mrt
+- ID: "16802c7a-011a-41ff-88b4-c33e6c737f3f"
+  Hint: Queries
+  Value: "DataSource=%7b0338600C-48D9-434B-A0C4-F2162C0EB75C%7d&Visits=%7bA7C9DEDA-20BE-4C42-A5F1-171E230E04DC%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110203T102253
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d71dcbf1-3e4c-4acd-9244-58aa5c1c8528"
+      Hint: Report Title
+      Value: Business Visits
+    - ID: "f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80"
+      Hint: Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>How active have business units and individuals from that business unit been on the website during a specified period of time?</li></ul>This report lists all the activity of a business in chronological order. If the report is for the entire business, it shows the activities of multiple business units. If this report is for a particular business unit, it only shows the activity of that business unit. <br/>
+        You came to this report in one of two ways. <br/>
+        <ul><li>If you clicked Total Visits at the top of the <i>Business Overview</i> report, this report lists up to the last 50 visits made by the business in question. </li>
+        <li>If you clicked the number of visits made by a specific business unit in the bottom section of the <i>Business Overview</i> report, this report lists up to the last 50 visits made by that business unit.</li></ul>Additional information:<ul><li>To open the <i>Visitor Overview</i> report, click the number in Visit # column.</li><li>To open the <i>Visit Detail</i> report that lists all the activities that the visitor carried out during a specific visit, click a date.</li></ul>
+        

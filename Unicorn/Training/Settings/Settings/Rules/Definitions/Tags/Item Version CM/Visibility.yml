@@ -1,0 +1,15 @@
+﻿---
+ID: "25bd9fbc-8b74-4efc-8c70-51ea66d686df"
+Parent: "b396d486-63db-4f62-8df1-db0989191848"
+Template: "aa91a868-02f2-41d3-8b78-1cad91b4dcae"
+Path: /sitecore/system/Settings/Rules/Definitions/Tags/Item Version CM/Visibility
+DB: master
+BranchID: "60e3e35b-cef9-4afa-9f89-204ed015ccb9"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120905T100652

@@ -1,0 +1,20 @@
+﻿---
+ID: "4a6b8c2d-13cd-4d3c-a902-35b6a9b643e9"
+Parent: "635fb072-3c64-470d-9666-6a787e42b68e"
+Template: "854ba861-63ea-4a0c-8c7b-541e9a7ec4c1"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Search Query Builder/Tags/Default
+DB: master
+BranchID: "9a72c539-dbf8-4dad-96d3-a298fc04add6"
+SharedFields:
+- ID: "42f77151-098f-496a-94cf-590b7edeeabe"
+  Hint: Tags
+  Type: Multilist
+  Value: "{F2AED1B5-5491-4973-AB8A-60D34A73EFE7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140114T111456

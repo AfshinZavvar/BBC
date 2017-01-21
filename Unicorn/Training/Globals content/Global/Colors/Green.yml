@@ -1,0 +1,21 @@
+﻿---
+ID: "55db8f6a-807d-48f8-a3d1-d81037938f13"
+Parent: "dffb1d2a-63d0-4582-80a9-c40333db6125"
+Template: "62a92460-14c2-4352-acf1-7f81e9c73653"
+Path: /sitecore/content/Home/Global/Colors/Green
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170107T002729Z
+    - ID: "2b05b5bc-a191-4a56-934f-15300d850d2f"
+      Hint: ColorName
+      Value: 

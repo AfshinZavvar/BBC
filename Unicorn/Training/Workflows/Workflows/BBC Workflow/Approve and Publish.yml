@@ -1,0 +1,14 @@
+﻿---
+ID: "da97dc55-e5c2-4608-bea3-bf2f77b53b59"
+Parent: "5be33ebe-9e1b-40e8-a54b-fce993463c08"
+Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
+Path: /sitecore/system/Workflows/BBC Workflow/Approve and Publish
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170116T022358Z

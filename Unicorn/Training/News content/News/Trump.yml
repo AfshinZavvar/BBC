@@ -1,0 +1,43 @@
+﻿---
+ID: "b254fcad-b29d-49e8-90fb-eb0508af2ea4"
+Parent: "ce972457-1b81-40c9-8107-30521e16b2ad"
+Template: "e5e5393e-ac53-4777-bfe3-bb9e6a5d70e2"
+Path: /sitecore/content/Home/News/Trump
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0323944e-238c-412e-9505-894db57eb7f6"
+      Hint: Category
+      Type: Multilist
+      Value: "{77D785BA-F347-490D-97E0-5452C84347FD}"
+    - ID: "0b5caa53-5ae7-45d9-8a68-fe6ee7f3de40"
+      Hint: Description
+      Value: |
+        <p class="story-body__introduction"><strong>Despite the pressure that the US presidential election campaign has placed on their parents, Chelsea Clinton and Ivanka Trump maintain that they are good friends.</strong></p>
+        <p>But depending on the outcome of the vote on 8 November, one of the two can expect to be thrust into a major financial role.</p>
+        <p>Donald Trump has said that if he becomes president, he will hand control of his business empire to Ivanka and her brothers, Don and Eric.</p>
+        <p>If Hillary Clinton wins the race for the White House, the intention is for her and husband Bill to step down from the board of the Clinton Foundation and for Chelsea, currently its vice-chair, to take over its day-to-day operations.</p>
+        <br>
+    - ID: "1ad3ad62-4236-4932-86a8-3b5bd3a3cc4e"
+      Hint: Date
+      Value: 20161104T003000Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T003133Z
+    - ID: "5b812791-cd6f-421f-b5d6-48300d8082b6"
+      Hint: ShortDescription
+      Value: Either Ivanka Trump or Chelsea Clinton is about to acquire new responsibilities.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b90e2c8-7e35-4bc4-9216-51dabe3eb8ec"
+      Hint: Title
+      Value: "US election 2016: Trump and Clinton trust in daughter power"
+    - ID: "a444f9d5-fc01-42be-b185-c6d1c6960cdf"
+      Hint: Logo
+      Value: |
+        <image mediaid="{D9977860-D550-4701-B53E-0ACE42F684C6}" />

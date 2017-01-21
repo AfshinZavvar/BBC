@@ -1,0 +1,18 @@
+﻿---
+ID: "2c3f59d4-acf5-4501-82a1-8cab1abb47a4"
+Parent: "ecd5d436-cca6-4eab-ab40-fa560497e82a"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/BBC Workflow/Draft/Submit
+DB: master
+SharedFields:
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{B136AD8A-F701-4C5C-982B-C12FC33BEED9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170116T022639Z

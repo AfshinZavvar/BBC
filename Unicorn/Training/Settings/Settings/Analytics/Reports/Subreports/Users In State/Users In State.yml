@@ -1,0 +1,43 @@
+﻿---
+ID: "7d8d1398-252e-41cc-9a89-9dc05dd3630b"
+Parent: "a1503baa-6f99-4c61-a296-bf2abe7f5448"
+Template: "6674a4af-eace-445e-89f1-e2f464026056"
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Users In State/Users In State
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/keys.png
+- ID: "0cc4ad84-f69d-44d2-9600-5c7522aa2401"
+  Hint: File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/UsersInState.mrt
+- ID: "16802c7a-011a-41ff-88b4-c33e6c737f3f"
+  Hint: Queries
+  Value: "DataSource=%7BA054ED98-B2AD-4346-808D-0FEB5EAFFF1B%7D"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110131T153358
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d71dcbf1-3e4c-4acd-9244-58aa5c1c8528"
+      Hint: Report Title
+      Value: Contacts In Automation State
+    - ID: "f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80"
+      Hint: Report Description
+      Value: |
+        This report helps you answer the following questions:
+        <ul>
+        <li>Which contacts are in a particular engagement automation state?</li>
+        <li>How long have been there, and how active they have been on the site?</li>
+        </ul>
+        
+        This report displays the name and email of all known contacts in a particular engagement automation state. Inside a state you can have also anonymous contacts, i.e. contacts which have not logged in or performed any action which allows Sitecore to match them to a known contact. <br/>
+        If the contact has already visited the site, you can click in their name to drill down to their individual visits. It is possible that some contacts have not visited the site yet, maybe because they have been added manually through the Supervisor, or as a consequence of an ECM message.
+        

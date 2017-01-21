@@ -1,0 +1,41 @@
+﻿---
+ID: "9de955c5-2d86-4c74-ae92-a4d19e6dac1f"
+Parent: "b62e6c0c-8be3-4f51-939a-db039eefa3a4"
+Template: "6674a4af-eace-445e-89f1-e2f464026056"
+Path: "/sitecore/system/Settings/Analytics/Reports/Item Reports/Page - Goals and Events"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/exit.png
+- ID: "0cc4ad84-f69d-44d2-9600-5c7522aa2401"
+  Hint: File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/ItemReports/PageGoalsEvents.mrt
+- ID: "16802c7a-011a-41ff-88b4-c33e6c737f3f"
+  Hint: Queries
+  Value: "DataSource=%7b7764F713-C4D0-4D1E-BBA2-34538A202ECA%7d&Page=%7b0335CB18-C887-4F23-A674-A560D89B3A99%7d&SearchesFromPage=%7bECAE970A-B37E-4537-AB93-FF28F69BE198%7d&AverageTimeOnPage=%7b6B77E775-31D2-4424-980D-B5B5DBA88D3F%7d&Goals=%7b4C4BCAD6-407C-4419-A011-A0BBEDC7C631%7d&PageAssets=%7b78BBCDEB-0C56-4310-BD71-E3DCB63000F6%7d&Assets=%7b4D33686B-F4D9-42F9-8ACC-A9EAED730D0E%7d&ItemBounced=%7b598FF99F-AE88-4BC4-9D91-2A804D1D0FA6%7d&NewPageVisitors=%7b0B9FF220-2B1D-4508-88CF-F23A31007805%7d"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090127T202122
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d71dcbf1-3e4c-4acd-9244-58aa5c1c8528"
+      Hint: Report Title
+      Value: "Page - Goals and Events"
+    - ID: "f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80"
+      Hint: Report Description
+      Value: |
+        This report helps you answer the following questions:<ul><li>How much does this page contribute to conversions and value generation?</li><li>What types of goals and assets are of greatest interest to visitors to this page?</li></ul>This report shows how this page contributes to goal conversion and value consumption. It can help you accelerate a visitor&rsquo;s flow through the marketing funnel. You may be able to increase the visitor goal conversion rate by analyzing the following tables and identifying related goals and assets that you can link to or place on this page.<br/>
+        The page&rsquo;s value potential is a measure of its value contribution compared to the average page&rsquo;s value contribution. A page with a positive value potential contributes more value to the website than the average page. A page with a negative value potential contributes less value to the website than the average page. You should examine a page with a negative value potential and look for ways to increase its interest to high value visitors or increase its conversion rates.<br/>
+        The following table lists the goals and events that are on this page. You may be able to accelerate the conversion of a goal by placing that conversion opportunity or a link to that conversion opportunity on this page. Keep in mind, that often visitors will not convert until they have developed trust in your website&mdash;but they will want the option to convert when they are ready.
+        The following table lists the assets that visitors to this page most commonly use.

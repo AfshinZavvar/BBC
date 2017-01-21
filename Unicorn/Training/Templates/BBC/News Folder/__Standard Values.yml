@@ -1,0 +1,51 @@
+﻿---
+ID: "3179f9cb-09ca-4e9b-8715-ba74bd99f3fd"
+Parent: "efbd8fc6-8779-429e-8620-8d1f5479e91b"
+Template: "efbd8fc6-8779-429e-8620-8d1f5479e91b"
+Path: /sitecore/templates/BBC/News Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E5E5393E-AC53-4777-BFE3-BB9E6A5D70E2}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
+        <r
+          id="{6819D55D-612E-4761-83E4-AE63ED12A025}"
+          ph="header"
+          uid="{B8F22BAD-3AE6-47D9-B01B-A48A768828CC}" />
+        <r
+          id="{CCBD4971-CB9A-4C60-810B-26369E18BCD5}"
+          ph="content"
+          uid="{0A310555-377A-4B80-AED3-E9337941E791}" />
+        <r
+          id="{9C5C6919-232E-4024-8895-7B53DB2D533A}"
+          ph="right"
+          uid="{228F142E-A774-4462-8A81-4FED131FF635}" />
+        <r
+          ds="{B254FCAD-B29D-49E8-90FB-EB0508AF2EA4}"
+          id="{9E17A610-6932-486D-8D75-CA9258135038}"
+          par="ColorName=%7BC3F0D988-D95D-4DDC-BC5D-12B29DD0C41C%7D"
+          ph="left"
+          uid="{A9D1F111-E7DC-4B86-8BBA-14DB08664A25}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T001525Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

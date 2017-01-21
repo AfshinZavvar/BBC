@@ -1,0 +1,17 @@
+﻿---
+ID: "77d785ba-f347-490d-97e0-5452c84347fd"
+Parent: "462bbfc9-52ba-4d5c-836c-bc80765b0b83"
+Template: "6a4fe647-639c-4dc2-8a4c-7543a67080e1"
+Path: /sitecore/content/Home/Global/Categories/Politic
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T003448Z
+    - ID: "39274ed3-a4c8-4b12-a7c2-408a0a5a9ad6"
+      Hint: CategoryName
+      Value: Politic

@@ -1,0 +1,43 @@
+﻿---
+ID: "d7c58e4f-89b0-4b11-96ed-cc0ac9ac3b12"
+Parent: "d57f371f-6468-4170-b604-6bdc00f60357"
+Template: "6674a4af-eace-445e-89f1-e2f464026056"
+Path: "/sitecore/system/Settings/Analytics/Reports/Reports/Sales/Top Leads by Value/Unclassified Organizations - Daily"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/phone_pick_up.png
+- ID: "0cc4ad84-f69d-44d2-9600-5c7522aa2401"
+  Hint: File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/TopLeadsByValueUnclassified.mrt
+- ID: "16802c7a-011a-41ff-88b4-c33e6c737f3f"
+  Hint: Queries
+  Value: "DataSource=%7bC5BC372F-30EB-4251-87D2-BB22350E4510%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d"
+- ID: "50d60671-6d34-456c-823b-5f5b6b147ec3"
+  Hint: Daily
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110125T104004
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d71dcbf1-3e4c-4acd-9244-58aa5c1c8528"
+      Hint: Report Title
+      Value: "Top Leads by Value - Unclassified Organizations - Daily"
+    - ID: "f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80"
+      Hint: Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Which unclassified organizations have a high value and are most likely to become a prospect today?</li></ul>This report lists organizations ranked by the total value that they accumulated. These unclassified organizations could be any type of organization – prospect, competitor, press, and so on. If they are potential prospects, a higher value means that they are further along the marketing funnel.<br/>
+        The organizations with the highest rankings have the greatest engagement with your website, products, or services. Value is a weighting placed on an activity initiated by an organization, such as requesting an online demonstration. Activity Level is calculated by an algorithm that measures the activity of one or more unique visitors over time.<br/>
+        Run this report every day to identify new prospects.<br/>
+        Click the name of an organization to open the <i>Business Overview</i> report.
+        

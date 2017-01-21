@@ -1,0 +1,10 @@
+﻿---
+ID: "679bfdfc-5693-4c5e-9c49-3d2a3c292dfa"
+Parent: "087e1ea5-6280-4575-9e70-85b588db91b2"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Security
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1

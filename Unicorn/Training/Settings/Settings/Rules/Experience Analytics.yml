@@ -1,0 +1,15 @@
+﻿---
+ID: "df670895-c767-423b-870b-acc4d960ee83"
+Parent: "1057c235-c5c0-4eb7-8f77-ea51eb9e20ee"
+Template: "dda66314-03f3-4c89-84a9-39dffb235b06"
+Path: /sitecore/system/Settings/Rules/Experience Analytics
+DB: master
+BranchID: "bdc41fdd-a3ac-4b69-a0ba-471c425cb083"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140618T124428

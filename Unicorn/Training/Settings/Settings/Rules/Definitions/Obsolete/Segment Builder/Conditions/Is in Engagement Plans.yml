@@ -1,0 +1,25 @@
+﻿---
+ID: "cb7eaa5e-3d4d-41df-8453-34db6fce2f9e"
+Parent: "0cdead62-a62c-4e87-88fb-d1078375ef11"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: /sitecore/system/Settings/Rules/Definitions/Obsolete/Segment Builder/Conditions/Is in Engagement Plans
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sitecore.Analytics.Rules.SegmentBuilder.Conditions.HasAutomationsCondition,Sitecore.SegmentBuilder
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090202T181635
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: "where a contact is in any state in the [automationids,Treelist,root={4497A9BE-0A00-4EE4-9AE0-50D6CBB4FAB2}&selection={6E5B63D6-2401-4A52-8B4D-CFEF5E4E9752},specific] engagement plans"

@@ -1,0 +1,18 @@
+﻿---
+ID: "3eae27c7-591f-4ce7-a61c-d18bf3760904"
+Parent: "db14b596-67dd-4c93-be7c-2bdbadeb64c2"
+Template: "5986d8c8-3a31-4160-a816-acaa26dfb54f"
+Path: /sitecore/system/Settings/Buckets/Tab Options/Close Tabs To Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120720T090418
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

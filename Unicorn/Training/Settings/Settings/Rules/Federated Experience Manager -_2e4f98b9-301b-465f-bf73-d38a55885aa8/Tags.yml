@@ -1,0 +1,15 @@
+﻿---
+ID: "ea9ef5c1-fa5c-4436-9bb7-0f9170f2aaf1"
+Parent: "2e4f98b9-301b-465f-bf73-d38a55885aa8"
+Template: "96c8e5dd-63c3-496b-a97c-a3e37e1dacba"
+Path: "/sitecore/system/Settings/Rules/Federated Experience Manager - Page Matching/Tags"
+DB: master
+BranchID: "bdc41fdd-a3ac-4b69-a0ba-471c425cb083"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140403T090254

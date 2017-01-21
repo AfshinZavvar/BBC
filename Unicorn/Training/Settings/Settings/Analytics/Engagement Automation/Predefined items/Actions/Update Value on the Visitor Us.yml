@@ -1,0 +1,21 @@
+﻿---
+ID: "9be8f0be-1b3d-4c5d-8954-06a669367d69"
+Parent: "745cbad6-fefe-4f29-a686-6080fea87341"
+Template: "8c5ead00-5f68-4310-ab0c-84f283b5ee0a"
+Path: /sitecore/system/Settings/Analytics/Engagement Automation/Predefined items/Actions/Update Value on the Visitor User Profile
+DB: master
+SharedFields:
+- ID: "8728a037-47d3-4180-b754-87926eda7ae8"
+  Hint: Editor
+  Value: /sitecore/shell/~/xaml/Sitecore.Shell.Applications.MarketingAutomation.Dialogs.ActionEditors.UpdateValueOnVisitorUserProfile.aspx
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: Sitecore.Analytics.Automation.AutomationActions.UpdateValueOnContactUserProfileAction,Sitecore.Analytics.Automation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110722T104900

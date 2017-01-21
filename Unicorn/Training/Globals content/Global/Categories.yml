@@ -1,0 +1,18 @@
+﻿---
+ID: "462bbfc9-52ba-4d5c-836c-bc80765b0b83"
+Parent: "14b6037e-aedb-4112-aebe-0d87224998a7"
+Template: "f568e137-f19f-4471-bc2f-aceab5a4ddbf"
+Path: /sitecore/content/Home/Global/Categories
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T002255Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

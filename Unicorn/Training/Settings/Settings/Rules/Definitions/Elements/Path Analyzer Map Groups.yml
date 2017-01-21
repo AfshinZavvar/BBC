@@ -1,0 +1,18 @@
+﻿---
+ID: "99fc14ec-e30b-4d03-a1f3-cdfebb13c46a"
+Parent: "e7cbefe8-9112-4b95-a978-4e470d94c54a"
+Template: "54dae7cd-bfd8-4e69-9679-75f2ae9f9034"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Path Analyzer Map Groups
+DB: master
+SharedFields:
+- ID: "78003371-b463-4f9a-8a26-2d88cdcd1435"
+  Hint: Group
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140401T153349

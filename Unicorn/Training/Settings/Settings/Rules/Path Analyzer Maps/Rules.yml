@@ -1,0 +1,14 @@
+﻿---
+ID: "1c363ca9-8ce0-4922-b699-4d1842068a78"
+Parent: "40ebb266-d3c1-42bb-ac7a-320ffadedd49"
+Template: "8ea2cf67-4250-47a2-aeca-4f70fd200dc7"
+Path: /sitecore/system/Settings/Rules/Path Analyzer Maps/Rules
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140401T152835

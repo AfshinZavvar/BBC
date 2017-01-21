@@ -1,0 +1,21 @@
+﻿---
+ID: "4f525f98-d244-402a-9347-6ba1b9a2e845"
+Parent: "dffb1d2a-63d0-4582-80a9-c40333db6125"
+Template: "62a92460-14c2-4352-acf1-7f81e9c73653"
+Path: /sitecore/content/Home/Global/Colors/Orange
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170113T233706Z
+    - ID: "2b05b5bc-a191-4a56-934f-15300d850d2f"
+      Hint: ColorName
+      Value: "{4F525F98-D244-402A-9347-6BA1B9A2E845}"

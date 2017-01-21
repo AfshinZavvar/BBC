@@ -1,0 +1,23 @@
+﻿---
+ID: "0ec92b46-d995-4d0d-8e98-ca16304064df"
+Parent: "53b1dcaa-f171-488d-9660-4f04bde4d74b"
+Template: "53b1dcaa-f171-488d-9660-4f04bde4d74b"
+Path: /sitecore/templates/BBC/Color Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{62A92460-14C2-4352-ACF1-7F81E9C73653}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170107T001815Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

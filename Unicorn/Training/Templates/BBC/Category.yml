@@ -1,0 +1,44 @@
+﻿---
+ID: "6a4fe647-639c-4dc2-8a4c-7543a67080e1"
+Parent: "6f29dff3-c929-4d16-8507-5e2723a93c21"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/BBC/Category
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
+        <r
+          id="{6819D55D-612E-4761-83E4-AE63ED12A025}"
+          ph="Header"
+          uid="{905B50BC-0E49-4C55-A5C9-377F428A7955}" />
+        <r
+          id="{B25F49D7-22C3-4A1A-9955-ACC5B357898E}"
+          ph="content"
+          uid="{133F2450-F133-4A0C-968D-E35A51A9F8CC}" />
+      </d>
+    </r>
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A4EF573E-407D-4C3E-98AB-826704F20B3F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T000958Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

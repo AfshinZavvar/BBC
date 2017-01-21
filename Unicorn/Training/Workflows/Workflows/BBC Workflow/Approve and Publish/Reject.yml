@@ -1,0 +1,18 @@
+﻿---
+ID: "a3b2515e-f584-47d8-95ca-24cd208079fd"
+Parent: "da97dc55-e5c2-4608-bea3-bf2f77b53b59"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/BBC Workflow/Approve and Publish/Reject
+DB: master
+SharedFields:
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{B136AD8A-F701-4C5C-982B-C12FC33BEED9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170116T022710Z

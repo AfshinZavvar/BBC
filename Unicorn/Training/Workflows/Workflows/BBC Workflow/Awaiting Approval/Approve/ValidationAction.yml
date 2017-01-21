@@ -1,0 +1,18 @@
+﻿---
+ID: "9f30f11c-725b-4951-bfe0-cd8ffd124854"
+Parent: "c32c5d7c-a44f-4bf2-96b1-ef4822cebc30"
+Template: "66882e97-c8aa-4e37-8901-7a8aa35ed2ed"
+Path: /sitecore/system/Workflows/BBC Workflow/Awaiting Approval/Approve/ValidationAction
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170116T023108Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,40 @@
+﻿---
+ID: "a4ef573e-407d-4c3e-98ab-826704f20b3f"
+Parent: "6a4fe647-639c-4dc2-8a4c-7543a67080e1"
+Template: "6a4fe647-639c-4dc2-8a4c-7543a67080e1"
+Path: /sitecore/templates/BBC/Category/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
+        <r
+          id="{6819D55D-612E-4761-83E4-AE63ED12A025}"
+          ph="header"
+          uid="{CE6EF531-19B8-438F-8D58-886577526AAD}" />
+        <r
+          id="{B25F49D7-22C3-4A1A-9955-ACC5B357898E}"
+          ph="content"
+          uid="{0A2855F8-3A71-4731-B43F-09BA60BA8C05}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T001424Z
+    - ID: "39274ed3-a4c8-4b12-a7c2-408a0a5a9ad6"
+      Hint: CategoryName
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

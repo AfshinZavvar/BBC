@@ -1,0 +1,43 @@
+﻿---
+ID: "14517ea3-2f88-422e-a1ba-f9e7cd3c1b89"
+Parent: "ce972457-1b81-40c9-8107-30521e16b2ad"
+Template: "e5e5393e-ac53-4777-bfe3-bb9e6a5d70e2"
+Path: /sitecore/content/Home/News/British
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0323944e-238c-412e-9505-894db57eb7f6"
+      Hint: Category
+      Type: Multilist
+      Value: "{F485D009-068B-483B-B2B3-51B6CFE771A5}"
+    - ID: "0b5caa53-5ae7-45d9-8a68-fe6ee7f3de40"
+      Hint: Description
+      Value: |
+        <p>Silverstone first hosted the British Grand Prix in 1950 and has been the event's permanent home since 1987.</p>
+        <p>Formula 1 chief Bernie Ecclestone told ITV News: "If they want to activate a break clause, there is nothing we can do.</p>
+        <p>"Two other tracks have contacted us and we are keen to keep a British Grand Prix, there is no doubt about it, we want to have one."</p>
+        <p>Three-time world champion Sir Jackie Stewart added: "I think it's a credible threat, not impossible for it to happen. I would be very sad if it did.</p>
+    - ID: "1ad3ad62-4236-4932-86a8-3b5bd3a3cc4e"
+      Hint: Date
+      Value: 20161104T030400Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170106T003552Z
+    - ID: "5b812791-cd6f-421f-b5d6-48300d8082b6"
+      Hint: ShortDescription
+      Value: |
+        The future of the British Grand Prix at Silverstone could be under threat because of the "potentially ruinous risk" of staging the loss-making race.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8b90e2c8-7e35-4bc4-9216-51dabe3eb8ec"
+      Hint: Title
+      Value: "British Grand Prix: Silverstone race 'under threat because of costs'"
+    - ID: "a444f9d5-fc01-42be-b185-c6d1c6960cdf"
+      Hint: Logo
+      Value: |
+        <image mediaid="{5B04FEB9-FF85-4078-A577-A8830D1C7F44}" />

@@ -1,0 +1,24 @@
+﻿---
+ID: "4281d9a1-da95-4884-b494-450b3ece3d24"
+Parent: "14517ea3-2f88-422e-a1ba-f9e7cd3c1b89"
+Template: "32c48d2b-82ed-49b6-9774-e8d19944e308"
+Path: "/sitecore/content/Home/News/British/17-FriT09-55-42"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170113T105542Z
+    - ID: "4fbe9bed-e16c-4284-a219-e535d115feb0"
+      Hint: Description
+      Value: "Awesome!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b700740a-6ff2-40b6-a210-6a6f2c3ad3ab"
+      Hint: FullName
+      Value: Alex
