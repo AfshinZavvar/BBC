@@ -1,0 +1,28 @@
+﻿@using System.Linq
+@using BBC.Models
+@using BBC.Repositories
+@model RenderingModel
+@{
+
+    var news = NewsRepository.GetNews().Take(4);
+    foreach (INews item in news)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="@item.TemplateUrl">@item.Title</a><br/>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        @Html.Glass().RenderImage(item, x => x.Logo,null,true)
+                    </div>
+                    <div class="col-md-9">
+                        @item.ShortDescription
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

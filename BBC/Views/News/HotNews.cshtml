@@ -1,0 +1,25 @@
+﻿@using BBC.Classes
+@model BBC.Models.INews
+@{
+    var rendering = RenderingContext.Current.Rendering;
+    var color = Parameters.GetBackgroundColor(rendering);
+}
+<div class="panel" style="border-color: @color;">
+    <div class="panel-heading" style="border-color: @color;background: @color;color: #ffffff;">
+        <h3 class="panel-title">
+            <a href="@Model.TemplateUrl">
+                Hot News!
+            </a><br/>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-3">
+                @Html.Glass().RenderImage(Model, x => x.Logo)
+            </div>
+            <div class="col-md-9">
+                @Model.Title
+            </div>
+        </div>
+    </div>
+</div>

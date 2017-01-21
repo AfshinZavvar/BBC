@@ -1,0 +1,32 @@
+﻿@using BBC.Models
+@using System.Linq
+@using BBC.Factories
+@using BBC.Repositories
+@using Glass.Mapper.Sc
+@model ICategory
+
+@{
+    ISitecoreContext context=new SitecoreContentContext();
+    var news = CategoryRepository.GetNewsOfCategory(context.GetCurrentItem<ICategory>());
+
+    foreach (var item in news)
+    {
+        <div class="col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-md-3">
+                            @Html.Glass().RenderImage(item, x => x.Logo)
+                        </div>
+                        <div class="col-md-9">
+                            <h4 class="panel-title" style="word-wrap: break-word">
+                                <a href="@item.TemplateUrl">@item.Title</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+}

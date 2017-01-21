@@ -1,0 +1,48 @@
+﻿@using BBC.Models
+@using BBC.ViewModels
+@model BBC.Models.INews
+
+<div class="alert alert-success">
+    @*Get Current Date from PipeLine*@
+    Today : @ViewBag.myMessage
+</div>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <a href="@Model.TemplateUrl">@Model.Title</a><br />
+            @*  @Html.Glass().RenderLink(x => x.TemplateUrl, new { @class = "" }, true, Model.Title)*@
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="pull-right" style="margin-top: 0;">
+                    @Model.Date
+                </div>
+                @Html.Glass().RenderImage(Model, x => x.Logo)
+            </div>
+        </div>
+        <b>
+            @Html.Glass().Editable(Model, x => x.ShortDescription)
+        </b><br />
+
+        @Html.Glass().Editable(Model, x => x.Description)
+
+        <span class="help-block">News ID:@Model.ItemId.ToString().ToUpper()</span>
+    </div>
+    <div class="panel panel-footer">
+        Categories:
+        @{
+            foreach (var category in Model.Categories)
+            {
+                <span>@category.CategoryName&nbsp;</span>
+            }
+        }
+    </div>
+</div>
+
+
+@{
+    var comments = (CommentsViewModel)ViewBag.Commentlist;
+    @Html.Partial("_CommentBox", comments);
+}

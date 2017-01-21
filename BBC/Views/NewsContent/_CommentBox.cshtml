@@ -1,0 +1,60 @@
+﻿
+
+@using BBC.Extensions
+@model BBC.ViewModels.CommentsViewModel
+
+<div class="detailBox">
+    <div class="titleBox">
+        <label>Comment Box</label>
+        <button type="button" class="close" aria-hidden="true">&times;</button>
+    </div>
+    <div class="commentBox">
+
+        <p class="taskDescription"></p>
+    </div>
+    <div class="actionBox">
+        @if (Model != null)
+        {
+            <ul class="commentList">
+                @{
+                    foreach (var comment in Model.Comments)
+                    {
+
+                        <li>
+                            <div class="commenterImage">
+                                <img src="~/Content/small.png" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">
+                                    @comment.Description
+                                </p> <span class="date sub-text">@comment.FullName</span>
+
+                            </div>
+                        </li>
+                    }
+                }
+            </ul>
+                    }
+        @using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post, new { @class = "form-inline", role = "form" }))
+        {
+            @Html.Sitecore().FormHandler("NewsContent", "SaveComment")
+            <div class="form-group">
+                <input id="FullName" name="FullName" class="form-control" type="text" placeholder="Your Name" style="width: 80%" />
+            </div>
+            <br />
+            <div class="form-group">
+                <input id="Description" name="Description" class="form-control" type="text" placeholder="comment" style="width: 80%" />
+            </div>
+            <div class="form-group">
+                <input id="btn" type="button" value="Add" class="btn btn-default" />
+            </div>
+
+            <div class="form-group">
+                <input id="Name" name="Name" class="form-control" type="hidden" value="" />
+            </div>
+        }
+    </div>
+</div>
+@Html.Script(
+    @<script src="@Url.Content("~/Scripts/saveComment.js")" type="text/javascript"></script>
+    )

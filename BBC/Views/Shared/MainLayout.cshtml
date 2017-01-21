@@ -1,0 +1,26 @@
+﻿@using BBC.Extensions
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>BBC </title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/commentbox.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    @Html.Sitecore().Placeholder("header")
+    @Html.Sitecore().Placeholder("content")
+</div>
+@Html.RenderScripts()
+
+</body>
+</html>
