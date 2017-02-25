@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using BBC.Factories;
 using BBC.Models;
+using Glass.Mapper.Sc;
 using Sitecore.Data.Items;
 
 
@@ -8,6 +9,7 @@ namespace BBC.Repositories
 {
     public class NewsRepository
     {
+
         public static Item GetNewsRoot()
         {
             return
