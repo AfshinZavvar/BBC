@@ -1,15 +1,17 @@
 ﻿@using BBC.Models
 @using System.Linq
+@using BBC.Classes
 @using BBC.Factories
 @using BBC.Repositories
+@using BBC.SCExtensions.DI
+@using BBC.SCExtensions.DI.Pipelines
 @using Glass.Mapper.Sc
-@model ICategory
+@using SimpleInjector
+@model IEnumerable<INews>
 
 @{
-    ISitecoreContext context=new SitecoreContentContext();
-    var news = CategoryRepository.GetNewsOfCategory(context.GetCurrentItem<ICategory>());
 
-    foreach (var item in news)
+    foreach (var item in Model)
     {
         <div class="col-md-6">
             <div class="panel panel-primary">

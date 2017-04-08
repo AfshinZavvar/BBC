@@ -9,18 +9,17 @@ namespace BBC.Repositories
 {
     public class NewsRepository
     {
+        private ISitecoreContext Context { get; set; }
 
-        public static Item GetNewsRoot()
+        public NewsRepository(ISitecoreContext _Context)
         {
-            return
-                BBCFactory.GetSitecoreDatabase(BBCFactory.enumSiteCoreDataBase.Web)
-                    .GetItem("/sitecore/content/Home/News");
+            Context = _Context;
         }
 
 
-
-        public static IEnumerable<INews> GetNews() =>
-            BBCFactory.GetSitecoreService(BBCFactory.enumSiteCoreDataBase.Web)
-                .Query<INews>("/sitecore/content/Home/News/*[@@templatename='News']");
-    }
+        public  IEnumerable<INews> GetAllNews()
+        {
+          return  Context.Query<INews>("/sitecore/content/Home/News/*[@@templatename='News']");
+        }
+     }
 }

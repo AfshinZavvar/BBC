@@ -1,13 +1,13 @@
 ﻿---
-ID: "52430b2e-e09a-4cf3-96b2-e10b28fc39e9"
+ID: "dce94038-9682-47b0-8794-25339dd93abf"
 Parent: "983b8123-995a-42fa-b100-9a48792cf25b"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/BBC/NewsContent
+Path: /sitecore/layout/Renderings/BBC/CategoryNews
 DB: master
 SharedFields:
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: ShowNewsContent
+  Value: NewsOfCategory
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: News
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170107T001458Z
+      Value: 20170408T085802Z

@@ -17,9 +17,9 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
         <r
-          id="{6819D55D-612E-4761-83E4-AE63ED12A025}"
+          id="{9E52F23A-420F-47E5-BFAD-B2E1A45C768C}"
           ph="header"
-          uid="{BFABD2DC-74BA-4239-81FC-F92FB73780BC}" />
+          uid="{91AA1798-E2AA-46F7-BF7F-DDB5F8A37DBA}" />
         <r
           id="{52430B2E-E09A-4CF3-96B2-E10B28FC39E9}"
           ph="content"
@@ -31,6 +31,25 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{91AA1798-E2AA-46F7-BF7F-DDB5F8A37DBA}">
+              <p:d />
+            </r>
+            <r
+              uid="{298A3319-185D-4DD7-8D98-C6EFF2A78489}"
+              p:before="*"
+              s:id="{9E52F23A-420F-47E5-BFAD-B2E1A45C768C}"
+              s:ph="header" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20170106T024633Z

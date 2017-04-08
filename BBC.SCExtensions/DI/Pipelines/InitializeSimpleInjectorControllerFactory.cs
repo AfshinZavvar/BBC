@@ -18,10 +18,8 @@ namespace BBC.SCExtensions.DI.Pipelines
         private void SetControllerFactory(PipelineArgs args)
         {
             ContainerManager containerM = new ContainerManager();
-            containerM.Container.Options.ConstructorResolutionBehavior = new GreediestConstructorBehavior();
-
             SetContainerOptions(containerM.Container);
-   
+
             PackageExtensions.RegisterPackages(containerM.Container,
                 AppDomain.CurrentDomain.GetAssemblies().Where(a => a.FullName.StartsWith("BBC")));
 
@@ -30,10 +28,12 @@ namespace BBC.SCExtensions.DI.Pipelines
 
         private void SetContainerOptions(Container container)
         {
+            container.Options.ConstructorResolutionBehavior = new GreediestConstructorBehavior();
             container.Options.PropertySelectionBehavior = new ImportAttributePropertySelectionBehavior();
             container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
             container.RegisterMvcIntegratedFilterProvider();
-            //container.Options.AllowOverridingRegistrations = true; //we do not want overriding registrations but if you do this is the property you set
+            container.Options.AllowOverridingRegistrations = true;
+            //we do not want overriding registrations but if you do this is the property you set
         }
     }
 }

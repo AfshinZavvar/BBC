@@ -154,9 +154,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SimpleInjector.cs" />
     <Compile Include="Classes\Parameters.cs" />
-    <Compile Include="Controllers\NewsContentController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Factories\BBCFactory.cs" />
     <Compile Include="Extensions\HtmlExtensions.cs" />
+    <Compile Include="Models\ICategories.cs" />
     <Compile Include="Models\ICategory.cs" />
     <Compile Include="Models\IColor.cs" />
     <Compile Include="Models\IComment.cs" />
@@ -167,7 +168,6 @@
     <Compile Include="Repositories\CategoryRepository.cs" />
     <Compile Include="Repositories\ItemRepository.cs" />
     <Compile Include="Repositories\NewsRepository.cs" />
-    <Compile Include="ViewModels\CategoriesViewModel.cs" />
     <Compile Include="ViewModels\CommentsViewModel.cs" />
     <Compile Include="ViewModels\NewsViewModel.cs" />
   </ItemGroup>
@@ -213,7 +213,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\Shared\MainLayout.cshtml" />
     <Content Include="Views\News\NewsOfCategory.cshtml" />
-    <Content Include="Views\Header\Header.cshtml" />
+    <Content Include="Views\News\Header.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -227,8 +227,8 @@
     <Content Include="Views\Home\HomePage.cshtml" />
     <Content Include="Views\News\AllNews.cshtml" />
     <Content Include="Views\News\HotNews.cshtml" />
-    <Content Include="Views\NewsContent\_CommentBox.cshtml" />
-    <Content Include="Views\NewsContent\ShowNewsContent.cshtml" />
+    <Content Include="Views\News\_CommentBox.cshtml" />
+    <Content Include="Views\News\ShowNewsContent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

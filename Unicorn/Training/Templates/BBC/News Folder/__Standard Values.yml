@@ -18,7 +18,7 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
         <r
-          id="{6819D55D-612E-4761-83E4-AE63ED12A025}"
+          id="{9E52F23A-420F-47E5-BFAD-B2E1A45C768C}"
           ph="header"
           uid="{B8F22BAD-3AE6-47D9-B01B-A48A768828CC}" />
         <r
@@ -26,13 +26,13 @@ SharedFields:
           ph="content"
           uid="{0A310555-377A-4B80-AED3-E9337941E791}" />
         <r
-          id="{9C5C6919-232E-4024-8895-7B53DB2D533A}"
+          id="{C421D8C8-0C77-44D8-B9ED-0FCBAE6974F2}"
           ph="right"
           uid="{228F142E-A774-4462-8A81-4FED131FF635}" />
         <r
           ds="{B254FCAD-B29D-49E8-90FB-EB0508AF2EA4}"
           id="{9E17A610-6932-486D-8D75-CA9258135038}"
-          par="ColorName=%7BC3F0D988-D95D-4DDC-BC5D-12B29DD0C41C%7D"
+          par="ColorName=%7bC3F0D988-D95D-4DDC-BC5D-12B29DD0C41C%7d"
           ph="left"
           uid="{A9D1F111-E7DC-4B86-8BBA-14DB08664A25}" />
       </d>

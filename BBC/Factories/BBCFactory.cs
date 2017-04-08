@@ -17,11 +17,5 @@ namespace BBC.Factories
         {
             return Factory.GetDatabase(database.ToString().ToLower());
         }
-
-        //Glass.Mapper
-        public static ISitecoreService GetSitecoreService(enumSiteCoreDataBase database)
-        {
-            return new SitecoreService(database.ToString().ToLower());
-        }
     }
 }

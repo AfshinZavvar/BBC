@@ -9,7 +9,7 @@ namespace BBC.SCExtensions.DI
 {
     public class ContainerManager
     {
-        private static readonly Container container = new Container();
+        private readonly Container container = new Container();
 
         public Container Container
         {

@@ -1,11 +1,10 @@
 ﻿@using System.Linq
 @using BBC.Models
 @using BBC.Repositories
-@model RenderingModel
+@model IEnumerable<INews>
 @{
 
-    var news = NewsRepository.GetNews().Take(4);
-    foreach (INews item in news)
+    foreach (INews item in Model)
     {
         <div class="panel panel-primary">
             <div class="panel-heading">
