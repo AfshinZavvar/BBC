@@ -15,12 +15,12 @@ namespace BBC.App_Start
 
         public void RegisterServices(Container container)
         {
-            container.Register<ISitecoreContext>(() => new SitecoreContext(), Lifestyle.Singleton);
+            container.Register<ISitecoreContext>(() => new SitecoreContext(), Lifestyle.Transient);
             container.Register<IComment, Comment>(Lifestyle.Scoped);
             container.Register<CommentsViewModel>(() => new CommentsViewModel(), Lifestyle.Scoped);
             container.Register<DatePipeline>(() => new DatePipeline(), Lifestyle.Scoped);
-            container.Register<NewsRepository>(Lifestyle.Scoped);
-            container.Register<CategoryRepository>(Lifestyle.Scoped);
+            container.Register<NewsRepository>(Lifestyle.Transient);
+            container.Register<CategoryRepository>(Lifestyle.Transient);
         }
     }
 }
