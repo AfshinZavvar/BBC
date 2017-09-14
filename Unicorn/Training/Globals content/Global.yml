@@ -8,6 +8,24 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Network/16x16/certificate.png
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{DB321917-29E6-4497-9009-C5ED3B4DF5EF}">
+        <r
+          id="{9E52F23A-420F-47E5-BFAD-B2E1A45C768C}"
+          ph="header"
+          uid="{A6D204CE-9661-4111-BF00-45AB00BDF83E}" />
+        <r
+          id="{6EB0F7D9-E372-4EC3-A1BF-100C7E524F4C}"
+          ph="content"
+          uid="{36C34228-835B-4591-8E6E-4184C6DC75F5}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
